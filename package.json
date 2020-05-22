@@ -1,0 +1,25 @@
+{
+  "name": "@genability/semver-compare",
+  "version": "1.0.0",
+  "description": "Github action to compare two semver strings",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mgerring/semver-compare-and-publish.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mgerring/semver-compare-and-publish/issues"
+  },
+  "homepage": "https://github.com/mgerring/semver-compare-and-publish#readme",
+  "dependencies": {
+    "@actions/core": "^1.2.4",
+    "@actions/github": "^2.2.0",
+    "semver-compare": "^1.0.0"
+  }
+}

@@ -1,0 +1,15 @@
+name: 'Compare versions'
+description: 'Given two versions, compare them and output which one is higher'
+inputs:
+  version_a:  # id of input
+    description: 'The first version to compare'
+    required: true
+  version_b:  # id of input
+    description: 'The second version to compare'
+    required: true
+outputs:
+  time: # id of output
+    higher_version: 'Which version from the input is higher'
+runs:
+  using: 'node12'
+  main: 'index.js'
