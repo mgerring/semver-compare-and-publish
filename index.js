@@ -7,7 +7,7 @@ try {
   const version_b = core.getInput('version_b');
 
   const comparison = semver_compare(version_a, version_b);
-  const higher_version = '';
+  let higher_version = '';
 
   if (comparison > 0) {
     higher_version = 'version_a';
