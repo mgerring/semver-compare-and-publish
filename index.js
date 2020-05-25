@@ -14,7 +14,7 @@ try {
   } else {
     higher_version = 'version_b';
   }
-
+  console.log('Higher version: '+higher_version);
   core.setOutput('higher_version', higher_version);
 } catch (error) {
   core.setFailed(error.message);
