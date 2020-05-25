@@ -1,6 +1,6 @@
 {
   "name": "@genability/semver-compare",
-  "version": "1.0.0",
+  "version": "1.3.0",
   "description": "Github action to compare two semver strings",
   "main": "index.js",
   "scripts": {

@@ -8,8 +8,8 @@ inputs:
     description: 'The second version to compare'
     required: true
 outputs:
-  time: # id of output
-    higher_version: 'Which version from the input is higher'
+  higher_version: # id of output
+    description: 'Which version from the input is higher'
 runs:
   using: 'node12'
   main: 'index.js'
